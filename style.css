@@ -6,7 +6,7 @@ html{
 .container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50px 300px 300px 650px 375px 550px 300px 100px;
+    grid-template-rows: 50px 300px 450px 650px 375px 550px 300px 100px;
     grid-auto-flow: row;
     background-color: #2B2B2B;
 }
@@ -87,10 +87,11 @@ html{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding-left:10px;
+    padding-bottom:20px;
     line-height: 22px;
     display: grid;
     grid-template-columns: 100px 200px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
 
 }
 #about h4{
@@ -136,6 +137,7 @@ html{
     background-color: rgb(119, 119, 119);
     border-top-right-radius: 20px;
     padding-left: 10px;
+    padding-right: 15px;
     margin-top:430px ;
     display: grid;
     grid-template-columns:1fr 1fr ;
