@@ -92,7 +92,7 @@ html{
     grid-template-rows: 1fr 1fr;
 
 }
-#about h2{
+#about h4{
     padding-right: 12px;
     text-align: center;
     align-self: center;
