@@ -3,6 +3,8 @@ html{
     background-color: #2B2B2B;
     color: white;
     background-color: black;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 .container{
     display: grid;
