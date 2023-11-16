@@ -9,7 +9,7 @@ html{
 .container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50px 300px 500px 525px 375px 550px 300px 100px;
+    grid-template-rows: 50px 300px 500px 20px 525px 20px 375px 20px 550px 20px 300px 20px 100px;
     grid-auto-flow: row;
     background-color: #2B2B2B;
 }
@@ -85,7 +85,7 @@ html{
     }
 
 #about{
-    grid-area: 3/1/4/4;
+    grid-area: 3/1/5/4;
     background-color: rgb(0, 0, 0);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -138,12 +138,11 @@ html{
     z-index: 1;
 } */
 #skills{
-    grid-area: 3/1/6/4;
+    grid-area: 4/1/7/4;
     background-color: rgb(119, 119, 119);
     border-top-right-radius: 20px;
     padding-left: 10px;
     padding-right: 20px;
-    margin-top:470px ;
     display: grid;
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 50px 150px 150px 150px;
@@ -178,7 +177,7 @@ html{
 
 }
 #services{
-    grid-area: 5/1/7/4;
+    grid-area: 6/1/9/4;
     background-color: rgb(0, 0, 0);
     border-top-left-radius: 20px;
     padding-left: 10px;
@@ -204,25 +203,60 @@ html{
     grid-area: 3/1/4/3;
 }
 #gallery{
-    grid-area: 6/1/8/4;
+    grid-area: 8/1/11/4;
     background-color: rgb(119, 119, 119);
     border-top-right-radius: 20px;
     padding-left: 10px;
+    display: grid;
+    grid-template-rows:50px 50px 1fr 50px 1fr;
+
+}
+#gallery .title{
+    grid-area: 1/1/2/2;
+}
+#gallery .behance{
+    grid-area: 2/1/3/2;
+
+}
+#gallery .iframe{
+    grid-area: 3/1/4/2;
+    display:flex;
+    overflow: auto;
+    margin-right: 10px;
+}
+#gallery .iframe iframe{
+    padding-right: 10px;
+}
+#gallery .drive{
+    grid-area: 4/1/5/2;
 
 }
 #contacts{
-    grid-area: 7/1/9/4;
+    grid-area: 10/1/13/4;
     background-color: rgb(0, 0, 0);
     border-top-left-radius: 20px;
     padding-left: 10px;
 
 }
-.footer{
-    grid-area: 8/1/9/4;
-    background-color: rgb(119, 119, 119);
- border-top-right-radius: 20px;
- border-top-left-radius: 20px;
- padding-left:15px;
- padding-top: 10px;
+#contacts p{
+    line-height: 45px;
+}
+#contacts input{
+    background-color: green;
+    border: 0px;
+    height: 35px;
+    border-radius: 10px;
+    color: snow;
 
+}
+.footer{
+    grid-area: 12/1/14/4;
+    background-color: rgb(119, 119, 119);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left:15px;
+    padding-top: 10px;
+}
+.footer a{
+    padding-right: 10%;
 }
