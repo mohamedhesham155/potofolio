@@ -91,14 +91,14 @@ html{
     /* padding-bottom:20px; */
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 2px 2fr;
+    grid-template-columns: 85px 2px 3fr;
     grid-template-rows: 150px 150px 150px;
     grid-gap: 10px;
 
 }
 #about h4{
     padding-right: 12px;
-    text-align: center;
+    text-align: left;
     align-self: center;
 }
 #about p{
