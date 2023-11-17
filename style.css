@@ -2,9 +2,11 @@ html{
     scroll-behavior: smooth;
     background-color: #2B2B2B;
     color: white;
-    background-color: black;
+    background-image: url(image/Artboard\ 1.png);
     font-family: sans-serif;
     /* font-size: 14px; */
+    width: 50vh;
+    margin: auto;
 }
 .container{
     display: grid;
